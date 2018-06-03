@@ -1,0 +1,110 @@
+body {
+	z-index: 1;
+}
+.header {
+	position: fixed;
+	background: gray;
+	color: white;
+	height: 35px;
+	width: 100%;
+	z-index: 100;
+}
+
+.header-title {
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.blog-body {
+	background: black;
+}
+
+.left-banner {
+	position: fixed;
+	top: 35px;
+	background: rgba(255,255,255,0.5);	
+	height: 800px;
+	width: 300px;
+	color: white;
+	text-indent: 1em;
+	z-index: 99;
+}
+
+.left-banner p {
+	margin-top: 10px;
+}
+
+
+.mask-layer {
+	position: fixed;
+	height: 800px;
+	width: 1600px;
+	background-color: rgba(178,178,178,0.3);
+	z-index: 10;
+
+} 
+
+.triangle-btn {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border: 13px solid red;
+    border-bottom-color: white;
+	border-top: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+
+.triangle-btn .rectangle {
+	margin-top: 18px;
+	float: left;
+	width: 26px;
+	height: 5px;
+	background: white;
+}
+
+.content {
+	padding-top: 50px;
+	background: black;
+	height: 1800px;
+}
+
+.txt {
+	float: left;
+	font-weight: bold;
+	color: white;
+	text-indent: 2em;
+}
+
+.left-btn {
+	float: right;
+	top: 0px;
+	right: 0px;
+	height: 50px;
+	width: 50px;
+	color: white;
+	cursor: pointer;
+}
+
+.left-btn span {
+	margin-top:5px;
+	float: left;
+	height: 5px;
+	width: 30px;
+	background: white;
+	border-radius: 10px;
+}
+
+
